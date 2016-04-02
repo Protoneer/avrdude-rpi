@@ -12,7 +12,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 dtr = re.compile('.+TIOCM_DTR.+')
 start = time.time()
-pin = 7
+pin = 11
 
 def reset():
   GPIO.setup(pin, GPIO.OUT)
