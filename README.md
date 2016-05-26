@@ -11,7 +11,7 @@ Instructions:
 
 Install using script:
 
-    $ git clone https://github.com/Protoneer/avrdude-rpi ~/avrdude-rpi && ~/avrdude-rpi/install
+    $ sudo git clone https://github.com/Protoneer/avrdude-rpi ~/avrdude-rpi && ~/avrdude-rpi/install
 
 
 
