@@ -28,6 +28,10 @@ To upload to ATmega328 @ 8Mhz:
 To upload to ATmega328 @ 16Mhz: 
 
     $ avrdude -v -c arduino -p ATMEGA328P -P /dev/ttyAMA0 -b 115200 -U flash:w:sketch_name.hex
+    
+To upload to ATmega2560 @ 16Mhz: 
+
+    $ avrdude -v -patmega2560 -c wiring -P /dev/ttyAMA0 -b 115200 -D -Uflash:w:Blink.ino.hex:i
 
 http://www.deanmao.com/2012/08/12/fixing-the-dtr-pin/
 https://github.com/openenergymonitor/avrdude-rpi
